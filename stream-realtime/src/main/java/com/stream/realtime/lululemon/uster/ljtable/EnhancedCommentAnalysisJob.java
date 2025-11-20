@@ -1,4 +1,4 @@
-package com.stream.realtime.lululemon.uster.aa;
+package com.stream.realtime.lululemon.uster.ljtable;
 
 import com.alibaba.fastjson2.JSONObject;
 import com.stream.core.KafkaUtils;

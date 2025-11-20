@@ -1,15 +1,11 @@
 // ThreeStreamJoinProcessor.java
-package com.stream.realtime.lululemon.uster.aa;
+package com.stream.realtime.lululemon.uster.ljtable;
 
 import com.alibaba.fastjson2.JSONObject;
 import org.apache.flink.api.common.state.*;
-import org.apache.flink.api.common.typeinfo.TypeHint;
-import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.co.KeyedCoProcessFunction;
 import org.apache.flink.util.Collector;
-import java.util.HashMap;
-import java.util.Map;
 
 public class ThreeStreamJoinProcessor extends KeyedCoProcessFunction<String, JSONObject, JSONObject, JSONObject> {
 

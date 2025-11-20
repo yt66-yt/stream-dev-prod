@@ -1,12 +1,11 @@
 // UserInfoPostgresSource.java
-package com.stream.realtime.lululemon.uster.aa;
+package com.stream.realtime.lululemon.uster.ljtable;
 
 import org.apache.flink.streaming.api.functions.source.RichSourceFunction;
 import org.apache.flink.configuration.Configuration;
 import com.alibaba.fastjson2.JSONObject;
 
 import java.sql.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * 使用RichSourceFunction的PostgreSQL源，兼容所有Flink版本

@@ -1,5 +1,5 @@
 // EnhancedMapUserImage.java
-package com.stream.realtime.lululemon.uster.aa;
+package com.stream.realtime.lululemon.uster.ljtable;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
